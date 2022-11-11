@@ -1,4 +1,3 @@
-# %%
 import pandas as pd
 import dash
 from dash import html, dcc, Input, Output
@@ -92,5 +91,3 @@ def get_scatter_chart(entered_site,value):
 # Run the app
 if __name__ == '__main__':
     app.run_server()
-# %%
-#filtered_df = spacex_df[spacex_df['Payload Mass (kg)'].between(min_payload, max_payload, inclusive=True)]
